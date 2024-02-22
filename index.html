@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog Preview</title>
+  </head>
+  <body
+    class="flex justify-center items-center h-screen p-0 m-0 bg-[#f5d04e]"
+    style="font-family: 'Figtree', sans-serif"
+  >
+    <div
+      class="bg-white rounded-md p-[20px] w-[350px] lg:w-[350px] border border-black border-r-4 border-b-4 hover:cursor-pointer hover:border-r-8 hover:border-b-8 rounded-r-lg rounded-b-lg sm:w-[250px]"
+    >
+      <img src="./illustration-article.svg" class="rounded-md" />
+      <span
+        class="flex flex-col justify-start items-start gap-[10px] mt-[20px]"
+      >
+        <button class="bg-[#f5d04e] font-bold px-[10px] py-[3px] rounded-md">
+          Learning
+        </button>
+        <p class="text-sm">Published 21 Dec 2023</p>
+        <h1 class="font-bold text-[22px] hover:text-[#f5d04e]">
+          HTML & CSS Foundations
+        </h1>
+        <p class="text-gray-400 text-[14px]">
+          These languages are the backbone of every website, defining structure,
+          content and presentation.
+        </p>
+        <span class="flex justify-center items-center">
+          <img src="./image-avatar.webp" class="w-8 h-8" />
+          <h3 class="font-bold ml-[10px]">Greg Hopper</h3>
+        </span>
+      </span>
+    </div>
+  </body>
+</html>
